@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99.8vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#calculator-display {
+  display: flex;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  height: 30vh;
+  width: 30vw;
+  color: white;
+  background-color: #000000;
+}
+
+#calculation {
+  display: flex;
+  justify-content: baseline;
+  align-items: end;
+  width: 60%;
+  font-size: 3em;
+}
+
+#calculation-result {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 40%;
+  font-size: 4.5rem;
+}
+
+#calculator-buttons {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#seven-button,
+#eight-button,
+#nine-button,
+#multiplication-button,
+#four-button,
+#five-button,
+#six-button,
+#subtraction-button,
+#one-button,
+#two-button,
+#one-button,
+#addition-button,
+#zero-button,
+#reset-button,
+#division-button,
+#equal-button {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 90%;
+}
+
+#seven-button,
+#eight-button,
+#nine-button,
+#four-button,
+#five-button,
+#six-button,
+#one-button,
+#two-button,
+#one-button,
+#zero-button,
+#reset-button,
+#division-button {
+  margin-right: 0vh;
+}
+
+#seven-button,
+#eight-button,
+#nine-button,
+#multiplication-button,
+#four-button,
+#five-button,
+#six-button,
+#subtraction-button,
+#one-button,
+#two-button,
+#one-button,
+#addition-button {
+  margin-bottom: 1vh;
+}
+
+.number-button {
+  border: none;
+  color: white;
+  font-size: 3em;
+  background-color: #1f1f1f;
+}
+
+.operation-button {
+  border: none;
+  color: white;
+  font-size: 3em;
+  background-color: #ffc700;
+}
+
+#reset-button {
+  border: none;
+  color: white;
+  font-size: 3em;
+  background-color: #d23c3c;
+}
+
+#reset-button:hover {
+  background-color: #e24646;
+}
+
+#reset-button:active {
+  background-color: #ec5656;
+}
+
+#equal-button {
+  border: none;
+  color: white;
+  font-size: 3em;
+  background-color: #27df9d;
+}
+
+#equal-button:hover {
+  background-color: #36f0ac;
+}
+
+#equal-button:active {
+  background-color: #56f3b9;
+}
+
+.number-button:hover {
+  background-color: #313131;
+}
+
+.number-button:active {
+  background-color: #3e3e3e;
+}
+
+.operation-button:hover {
+  background-color: #fece1f;
+}
+
+.operation-button:active {
+  background-color: #ffd642;
+}
